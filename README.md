@@ -50,3 +50,54 @@ https://fintech-project-production.up.railway.app
 ---
 
 ## 🔹 Project Structure
+/
+├── app/ # Next.js app directory
+├── public/ # Static assets
+├── backend/ # Railway backend project
+│ ├── index.js
+│ └── package.json
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🔹 How to Run Locally
+
+### Frontend
+```bash
+npm install
+npm run dev
+Visit:
+
+arduino
+Copy code
+http://localhost:3000
+Backend
+bash
+Copy code
+cd backend
+npm install
+npm start
+Visit:
+
+arduino
+Copy code
+http://localhost:3001
+🔹 Notes
+This repository automatically deploys:
+
+Frontend via GitHub → Vercel
+
+Backend via GitHub → Railway
+
+Both deployments update automatically on each main branch push.
+
+yaml
+Copy code
+
+---
