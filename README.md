@@ -1,7 +1,7 @@
 # group6 — Final Project (Track A)
 
 This repository contains the frontend of **group6** for the CAU FinTech Final Project.  
-Our team selected **Track A (Fullstack)**, which requires:
+Our team selected **Track A**, which requires:
 
 - A deployed **Next.js frontend** on Vercel  
 - A deployed **backend server** on Railway  
@@ -30,32 +30,6 @@ https://fintech-project-one.vercel.app
 
 ### ✅ Backend (Railway)  
 https://fintech-project-production.up.railway.app  
-
----
-
-## 🔹 Tech Stack
-- Next.js 16  
-- React  
-- TypeScript  
-- Tailwind CSS  
-- Vercel (Frontend hosting)  
-- Railway (Backend hosting)  
-- GitHub Actions / CI/CD  
-
----
-
-## 🔹 Project Structure
-
-```
-/
-├── app/                 # Next.js app directory
-├── public/              # Static assets
-├── backend/             # Railway backend project
-├── package.json
-├── next.config.ts
-├── tsconfig.json
-└── README.md
-```
 
 ---
 
