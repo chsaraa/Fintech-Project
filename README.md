@@ -1,11 +1,11 @@
 # group6 — Final Project (Track A)
 
-This repository contains the **frontend** of **group6** for the CAU FinTech Final Project.  
+This repository contains the **frontend** and **backend** of **group6** for the CAU FinTech Final Project.  
 Our team selected **Track A (Fullstack)**, which requires:
 
 - A deployed **Next.js frontend** on Vercel  
 - A deployed **backend server** on Railway  
-- A full **CI/CD pipeline** (GitHub → Vercel / Railway)
+- A complete **CI/CD pipeline** (GitHub → Vercel / Railway)
 
 ---
 
@@ -21,7 +21,6 @@ Our team selected **Track A (Fullstack)**, which requires:
 **Track A — Fullstack Application**
 
 Requirements include:
-
 - Live deployment on **Vercel**
 - Live backend deployment on **Railway**
 - Continuous deployment through **GitHub**
@@ -43,49 +42,11 @@ https://fintech-project-production.up.railway.app
 - **React**
 - **TypeScript**
 - **Tailwind CSS**
+- **Node.js + Express** (Backend)
 - **Vercel** (Frontend hosting)
 - **Railway** (Backend hosting)
-- **GitHub Actions** / CI/CD
+- **GitHub Actions / CI/CD**
 
 ---
 
 ## 🔹 Project Structure
-/
-├── app/ # Next.js app directory
-├── public/ # Static assets
-├── backend/ # Railway backend project
-├── package.json
-├── next.config.ts
-├── tsconfig.json
-└── README.md
-
-yaml
-Copy code
----
-
-## 🔹 How to Run Locally
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-Backend
-bash
-Copy code
-cd backend
-npm install
-npm start
-🔹 Notes
-This repository automatically deploys:
-
-Frontend via GitHub → Vercel
-
-Backend via GitHub → Railway
-
-Both deployments update automatically on each main branch push.
-
-yaml
-Copy code
-
----
