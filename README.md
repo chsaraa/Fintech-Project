@@ -18,12 +18,8 @@ Our team selected **Track A (Fullstack)**, which requires:
 ---
 
 ## 🔹 Track Declaration
-**Track A — Fullstack Application**
+**Track A**
 
-Requirements include:
-- Live deployment on Vercel  
-- Live backend deployment on Railway  
-- Continuous deployment through GitHub  
 
 ---
 
