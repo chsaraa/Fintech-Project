@@ -66,8 +66,8 @@ https://fintech-project-production.up.railway.app
 ## 🔹 How to Run Locally
 
 ### **Frontend**
-```
-cd frontend   (si el frontend está en carpeta raíz, omitir este paso)
+```bash
+cd frontend
 npm install
 npm run dev
 ```
@@ -75,7 +75,7 @@ Visit:
 http://localhost:3000
 
 ### **Backend**
-```
+```bash
 cd backend
 npm install
 npm start
