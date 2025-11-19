@@ -1,1 +1,1 @@
-# Fintech-Project
+# fintech-project
