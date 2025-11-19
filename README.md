@@ -1,4 +1,4 @@
-# group6 — Final Project (Track A)
+# Group6 — Final Project (Track A)
 
 This repository contains the frontend of **group6** for the CAU FinTech Final Project.  
 Our team selected **Track A**, which requires:
