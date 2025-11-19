@@ -1,6 +1,6 @@
 # Group6 — Final Project (Track A)
 
-This repository contains the frontend of **group6** for the CAU FinTech Final Project.  
+This repository contains the frontend of **Group 6** for the CAU FinTech Final Project.  
 Our team selected **Track A**, which requires:
 
 - A deployed **Next.js frontend** on Vercel  
