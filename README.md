@@ -49,6 +49,7 @@ bash
 Copy code
 
 ## 🔹 How to Run Locally
+
 ### Frontend
 ```bash
 cd frontend   # (if the frontend is already at root, skip this)
@@ -68,7 +69,6 @@ Visit: http://localhost:3001
 This repository automatically deploys:
 
 Frontend: GitHub → Vercel
-
 Backend: GitHub → Railway
 
 Both deployments update automatically on each push to the main branch.
