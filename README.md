@@ -1,4 +1,5 @@
-md # group6 — Final Project (Track A)
+md
+# group6 — Final Project (Track A)
 
 This repository contains the frontend of **group6** for the CAU FinTech Final Project.  
 Our team selected **Track A (Fullstack)**, which requires:
@@ -51,6 +52,7 @@ https://fintech-project-production.up.railway.app
 ---
 
 ## 🔹 Project Structure
+
 /
 ├── app/ # Next.js app directory
 ├── public/ # Static assets
@@ -59,28 +61,32 @@ https://fintech-project-production.up.railway.app
 ├── next.config.ts
 ├── tsconfig.json
 └── README.md
+
 yaml
+
 
 ---
 
 ## 🔹 How to Run Locally
 
-### Frontend
+### **Frontend**
 ```bash
-cd frontend   # (if the frontend is already at root, skip this)
+cd frontend   # (If the frontend is already at root, skip this)
 npm install
 npm run dev
-Visit: http://localhost:3000
+Visit:
+http://localhost:3000
 
 Backend
+bash
+
 cd backend
 npm install
 npm start
+Visit:
+http://localhost:3001
 
-
-Visit: http://localhost:3001
 🔹 Notes
-
 This repository automatically deploys:
 
 Frontend: GitHub → Vercel
@@ -88,6 +94,4 @@ Backend: GitHub → Railway
 
 Both deployments update automatically on each push to the main branch.
 
-
----
-
+yaml
