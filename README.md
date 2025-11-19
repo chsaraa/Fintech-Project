@@ -10,6 +10,7 @@ Our team selected **Track A (Fullstack)**, which requires:
 ---
 
 ## 🔹 Team Members
+
 - 이도영  
 - 김승규  
 - 김주혁  
@@ -18,9 +19,11 @@ Our team selected **Track A (Fullstack)**, which requires:
 ---
 
 ## 🔹 Track Declaration
+
 **Track A — Fullstack Application**
 
 Requirements include:
+
 - Live deployment on Vercel  
 - Live backend deployment on Railway  
 - Continuous deployment through GitHub  
@@ -33,11 +36,12 @@ Requirements include:
 https://fintech-project-one.vercel.app
 
 ### ✅ Backend (Railway)  
-https://fintech-project-production.up.railway.app  
+https://fintech-project-production.up.railway.app
 
 ---
 
 ## 🔹 Tech Stack
+
 - Next.js 16  
 - React  
 - TypeScript  
@@ -49,49 +53,50 @@ https://fintech-project-production.up.railway.app
 ---
 
 ## 🔹 Project Structure
-
-```
 /
-├── app/                 # Next.js app directory
-├── public/              # Static assets
-├── backend/             # Railway backend project
+├── app/ # Next.js app directory
+├── public/ # Static assets
+├── backend/ # Railway backend project
 ├── package.json
 ├── next.config.ts
 ├── tsconfig.json
 └── README.md
-```
+
 
 ---
 
 ## 🔹 How to Run Locally
 
-### **Frontend**
-```
-cd frontend   (si el frontend está en carpeta raíz, omitir este paso)
+### Frontend
+
+```bash
+# If the frontend is already in the root directory, skip the first line
+cd frontend
 npm install
 npm run dev
-```
-Visit:  
+
+
+Visit:
 http://localhost:3000
 
-### **Backend**
-```
+### Backend
 cd backend
 npm install
 npm start
-```
-Visit:  
+
+
+Visit:
 http://localhost:3001
 
----
+🔹 Notes
 
-## 🔹 Notes
 This repository automatically deploys:
 
-**Frontend:** GitHub → Vercel  
-**Backend:** GitHub → Railway  
+Frontend: GitHub → Vercel
 
-Both deployments update automatically on each push to the **main** branch.
+Backend: GitHub → Railway
+
+Both deployments update automatically on each push to the main branch.
+
 
 ---
-
